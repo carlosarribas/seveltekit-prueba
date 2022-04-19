@@ -1,0 +1,98 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-a8cab23c.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-3f446b4a.js",
+      "_preload-helper-e4860ae8.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/runtime/components/layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/grid.svelte",
+      "src/routes/gridserver.svelte",
+      "src/routes/index.svelte"
+    ]
+  },
+  ".svelte-kit/runtime/components/layout.svelte": {
+    "file": "layout.svelte-6d52c4c7.js",
+    "src": ".svelte-kit/runtime/components/layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-3f446b4a.js"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-9119004c.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-3f446b4a.js"
+    ]
+  },
+  "src/routes/grid.svelte": {
+    "file": "pages/grid.svelte-9c82f801.js",
+    "src": "src/routes/grid.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-3f446b4a.js",
+      "_gridjs-e63613b6.js"
+    ],
+    "css": [
+      "assets/pages/gridserver.svelte-41a8a447.css"
+    ]
+  },
+  "src/routes/gridserver.svelte": {
+    "file": "pages/gridserver.svelte-4212b431.js",
+    "src": "src/routes/gridserver.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-3f446b4a.js",
+      "_gridjs-e63613b6.js"
+    ],
+    "css": [
+      "assets/pages/gridserver.svelte-41a8a447.css"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-c88dc2df.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-e4860ae8.js",
+      "_index-3f446b4a.js"
+    ],
+    "dynamicImports": [
+      "node_modules/svelte-carousel/src/main.js"
+    ]
+  },
+  "_index-3f446b4a.js": {
+    "file": "chunks/index-3f446b4a.js"
+  },
+  "_preload-helper-e4860ae8.js": {
+    "file": "chunks/preload-helper-e4860ae8.js"
+  },
+  "_gridjs-e63613b6.js": {
+    "file": "chunks/gridjs-e63613b6.js",
+    "imports": [
+      "_index-3f446b4a.js"
+    ]
+  },
+  "node_modules/svelte-carousel/src/main.js": {
+    "file": "chunks/main-df53d4bb.js",
+    "src": "node_modules/svelte-carousel/src/main.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-3f446b4a.js"
+    ],
+    "css": [
+      "assets/main-2157c542.css"
+    ]
+  }
+}
